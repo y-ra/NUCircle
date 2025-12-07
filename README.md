@@ -1,158 +1,226 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Uq-6GvbM)
+# NUCircle
 
-## Getting Started
+**NUCircle** is a comprehensive Q&A and community platform designed specifically for Northeastern University students. Built as a modern alternative to Stack Overflow, NUCircle enables Huskies to ask questions, share knowledge, connect with peers, and engage in collaborative learning through real-time multiplayer games.
 
-Run `npm install` in the root directory to install all dependencies for the `client`, `server`, and `shared` folders.
-- Optional: Create a `.env` file in the `server/` directory and set the `JWT_SECRET` variable. 
+## 🌟 Features
 
-> [!NOTE]
-> Refer to [IP1](https://neu-se.github.io/CS4530-Spring-2025/assignments/ip1) and [IP2](https://neu-se.github.io/CS4530-Spring-2025/assignments/ip2) for further instructions related to setting up MongoDB, setting environment variables, and running the client and server.
+### Core Q&A Platform
+- **Questions & Answers**: Post questions, provide answers, and engage in discussions
+- **Voting System**: Upvote/downvote questions and answers to highlight quality content
+- **Comments**: Add comments to questions and answers for clarifications
+- **Tags**: Organize content with tags and filter by topics
+- **Search**: Powerful search functionality to find questions by keywords or tags
 
-## Codebase Folder Structure
+### Community & Social
+- **User Profiles**: Comprehensive profiles with biography, major, graduation year, and career goals
+- **Badges & Points**: Gamified reputation system with badges and points for contributions
+- **Work Experience**: Showcase co-op experiences and professional background
+- **Communities**: Create and join communities based on interests, majors, or topics
+- **Community Messages**: Post messages and announcements within communities
+- **Direct Messaging**: Real-time one-on-one and group chat functionality
+- **User Search**: Find and connect with other Northeastern students
 
-- `client`: Contains the frontend application code, responsible for the user interface and interacting with the backend. This directory includes all React components and related assets.
-- `server`: Contains the backend application code, handling the logic, APIs, and database interactions. It serves requests from the client and processes data accordingly.
-- `shared`: Contains all shared type definitions that are used by both the client and server. This helps maintain consistency and reduces duplication of code between the two folders. The type definitions are imported and shared within each folder's `types/types.ts` file.
+### Collections & Organization
+- **Collections**: Save and organize favorite questions into custom collections
+- **Personal Library**: Build a personal knowledge base of saved content
 
-## Database Architecture
+### Real-Time Multiplayer Games
+- **Trivia Quiz**: Challenge fellow students to real-time multiplayer trivia games
+  - 10-question rounds with instant scoring
+  - Tiebreaker rounds for tied games
+  - Real-time game updates via WebSocket
+  - Points awarded based on performance
+- **Game Invitations**: Send and receive quiz challenges from other users
+- **Game History**: Track your gaming statistics and achievements
 
-The schemas for the database are documented in the directory `server/models/schema`.
-A class diagram for the schema definition is shown below:
+### Technical Features
+- **Real-Time Updates**: Socket.IO-powered real-time notifications and updates
+- **Online Status**: See who's online and available for chat or games
+- **Responsive Design**: Modern, mobile-friendly UI built with React
+- **RESTful API**: Well-documented API with OpenAPI/Swagger specification
+- **Type Safety**: Full TypeScript implementation across client and server
 
-![Class Diagram](class-diagram.png)
+## 🏗️ Architecture
 
-## API Routes
+### Tech Stack
 
-### `/answer`
+**Frontend**
+- React 19 with TypeScript
+- Vite for build tooling
+- React Router for navigation
+- Socket.IO Client for real-time communication
+- Lucide React for icons
 
-| Endpoint   | Method | Description      |
-| ---------- | ------ | ---------------- |
-| `/addAnswer` | POST   | Add a new answer |
+**Backend**
+- Node.js with Express
+- TypeScript
+- MongoDB with Mongoose ODM
+- Socket.IO for WebSocket communication
+- JWT for authentication
+- OpenAPI validation middleware
 
-### `/comment`
+**Testing**
+- Jest for unit and integration tests
+- Cypress for end-to-end testing
+- Stryker for mutation testing
 
-| Endpoint    | Method | Description       |
-| ----------- | ------ | ----------------- |
-| `/addComment` | POST   | Add a new comment |
+**Development Tools**
+- ESLint + Prettier for code quality
+- TypeScript for type safety
+- Shared types package for consistency
 
-### `/messaging`
+### Project Structure
+├── client/ # React frontend application
+│ ├── src/
+│ │ ├── components/ # React components
+│ │ ├── hooks/ # Custom React hooks
+│ │ ├── services/ # API service layer
+│ │ └── types/ # TypeScript types
+│ └── package.json
+│
+├── server/ # Express backend application
+│ ├── controllers/ # API route handlers
+│ ├── services/ # Business logic
+│ ├── models/ # Mongoose schemas and models
+│ ├── middleware/ # Express middleware
+│ ├── tests/ # Jest test suites
+│ └── package.json
+│
+├── shared/ # Shared TypeScript types
+│ └── types/ # Common type definitions
+│
+└── testing/ # Cypress E2E tests
+└── cypress/
+## 🚀 Getting Started### 
+Prerequisites- Node.js (v18 or higher)- MongoDB (running locally or connection string)- npm or yarn
 
-| Endpoint     | Method | Description           |
-| ------------ | ------ | --------------------- |
-| `/addMessage`  | POST   | Add a new message     |
-| `/getMessages` | GET    | Retrieve all messages |
+### Installation
 
-### `/question`
+1. **Clone the repository**   
+git clone https://github.com/neu-cs4530/fall25-project-m-a-r-t-514.git   
+cd fall25-project-m-a-r-t-514
 
-| Endpoint          | Method | Description                     |
-| ----------------- | ------ | ------------------------------- |
-| `/getQuestion`      | GET    | Fetch questions by filter       |
-| `/getQuestionById/` | GET    | Fetch a specific question by ID |
-| `/addQuestion`      | POST   | Add a new question              |
-| `/upvoteQuestion`   | POST   | Upvote a question               |
-| `/downvoteQuestion` | POST   | Downvote a question             |
+2. **Install dependencies**
+npm install
+This installs dependencies for all workspaces (client, server, shared).
 
-### `/tag`
+3. **Set up environment variables**
+Create a `.env` file in the `server/` directory:
+JWT_SECRET=your-secret-key-here
+MONGODB_URI=mongodb://127.0.0.1:27017
 
-| Endpoint                   | Method | Description                                   |
-| -------------------------- | ------ | --------------------------------------------- |
-| `/getTagsWithQuestionNumber` | GET    | Fetch tags along with the number of questions |
-| `/getTagByName/`             | GET    | Fetch a specific tag by name                  |
+4. **Set up the database**
+Populate the database with seed data:
+cd server
+npm run populate-db
 
-### `/user`
+### Running the Application
 
-| Endpoint         | Method | Description                    |
-| ---------------- | ------ | ------------------------------ |
-| `/signup`          | POST   | Create a new user account      |
-| `/login`           | POST   | Log in as a user               |
-| `/resetPassword`   | PATCH  | Reset user password            |
-| `/getUser/`        | GET    | Fetch user details by username |
-| `/getUsers`        | GET    | Fetch all users                |
-| `/deleteUser/`     | DELETE | Delete a user by username      |
-| `/updateBiography` | PATCH  | Update user biography          |
+1. **Start the backend server**
+cd server
+npm run dev
+Server runs on `http://localhost:8000`
 
-### `/chat`
+2. **Start the frontend client**
+(in a new terminal)
+cd client
+npm run dev
+Client runs on `http://localhost:5173`
 
-| Endpoint                    | Method | Description                                                                 |
-| --------------------------- | ------ | --------------------------------------------------------------------------- |
-| `/createChat`               | POST   | Create a new chat.                                                          |
-| `/:chatId/addMessage`       | POST   | Add a new message to an existing chat.                                      |
-| `/:chatId`                  | GET    | Retrieve a chat by its ID, optionally populating participants and messages. |
-| `/:chatId/addParticipant`   | POST   | Add a new participant to an existing chat.                                  |
-| `/getChatsByUser/:username` | GET    | Retrieve all chats for a specific user based on their username.             |
+3. **Access the application**
+- Open `http://localhost:5173` in your browser
+- API documentation available at `http://localhost:8000/api/docs`
 
-### `/games`
-
-| Endpoint | Method | Description           |
-| -------- | ------ | --------------------- |
-| `/create`  | POST   | Create a new game     |
-| `/join`    | POST   | Join an existing game |
-| `/leave`   | POST   | Leave a game          |
-| `/games`   | GET    | Retrieve all games    |
-
-### `/api/collection`
-
-| Endpoint                            | Method | Description                         |
-| ----------------------------------- | ------ | ----------------------------------- |
-| `/create`                             | POST   | Create a new collection             |
-| `/delete/:collectionId`               | DELETE | Delete a collection                 |
-| `/toggleSaveQuestion`                 | PATCH  | Add/remove question from collection |
-| `/getCollectionsByUsername/:username` | GET    | Get collections by username         |
-| `/getCollectionById/:collectionId`    | GET    | Get collection by ID                |
-
-### `/api/community`
-
-| Endpoint                    | Method | Description                      |
-| --------------------------- | ------ | -------------------------------- |
-| `/getCommunity/:communityId`  | GET    | Get a specific community         |
-| `/getAllCommunities`          | GET    | Get all communities              |
-| `/toggleMembership`           | POST   | Join/leave a community           |
-| `/create`                     | POST   | Create a new community           |
-| `/delete/:communityId`        | DELETE | Delete a community          |
-
-## OpenAPI specification
-
-OpenAPI specifications as given in the [`server/openapi.yaml`](./server/openapi.yaml) file should give you an idea about the overall structure of the API endpoints, the request format and the various path/query parameters required as well as the expected response formats. To see a detailed explanation of the schemas and to test the endpoint in a sandboxed environment, you can use the Swagger UI page as follows:
-
-- Start the server as specified earlier (`cd server && npm run dev`).
-- Visit `http://localhost:8000/api/docs` to see the complete API specification in a user friendly manner.
-- You should be able to see and test out individual endpoints using the *Try it out* button associated with each endpoint.
-
-The specification itself is coupled with an OpenAPI validator (present as a middleware) that validates every request and response against the provided spec document.
-
-## Cypress Tests
-
-Cypress tests are end-to-end tests that can help verify your implementation.
-
-### Setup Instructions
-
-1. Navigate to the `testing` directory:
-   ```sh
-   cd testing
-   ```
-
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
-
-3. Create a `.env` file in the `testing/` directory with the following content:
-   ```
-   MONGODB_URI=mongodb://127.0.0.1:27017
-   ```
-
-4. Make sure that both the server and client are already running
-
-5. Run Cypress tests:
-   ```sh
+This installs dependencies for all workspaces (client, server, shared).
+Set up environment variables
+Create a .env file in the server/ directory:
+   JWT_SECRET=your-secret-key-here   MONGODB_URI=mongodb://127.0.0.1:27017s. Features real-time multiplayer trivia games, direct messaging, communities, question collections, and a comprehensive reputation system. Built with React, TypeScript, Express, MongoDB, and Socket.IO.
+Set up the database
+Populate the database with seed data:
+   cd server   npm run populate-db
+Running the Application
+Start the backend server
+   cd server   npm run dev
+Server runs on http://localhost:8000
+Start the frontend client (in a new terminal)
+   cd client   npm run dev
+Client runs on http://localhost:5173
+Access the application
+Open http://localhost:5173 in your browser
+API documentation available at http://localhost:8000/api/docs
+📚 API Documentation
+The API is fully documented using OpenAPI 3.1 specification. Access the interactive Swagger UI at:
+http://localhost:8000/api/docs
+Key API Endpoints
+Questions: /api/question/* - Get, create, and vote on questions
+Answers: /api/answer/* - Add answers to questions
+Comments: /api/comment/* - Add comments
+Users: /api/user/* - User management and authentication
+Chat: /api/chat/* - Direct messaging and chat rooms
+Games: /api/games/* - Game creation and management
+Communities: /api/community/* - Community features
+Collections: /api/collection/* - Question collections
+🧪 Testing
+Unit Tests (Jest)
+Run server-side unit tests:
+cd servernpm test
+Run with coverage:
+cd servernpm test -- --coverage
+End-to-End Tests (Cypress)
+Ensure both client and server are running
+Navigate to the testing directory:
+   cd testing   npm install
+Run Cypress:
    npx cypress open
-   ```
-
-6. In the Cypress UI that opens:
-   - Select *E2E Testing*
-   - Choose your browser (Chrome is preferred)
-   - Click on any of the test files to run it
-   - If any of the tests fail, you should be able to see the exact sequence of steps that led to the failure.
-
-> [!NOTE]
-> Running Cypress tests is optional. Cypress tests require significant system resources, and without them, the tests may be flaky. We will use these tests for grading.
+🎮 Game Features
+Trivia Quiz Game
+The trivia game is a real-time multiplayer experience:
+Challenge a Player: Click "Challenge" on any user's profile
+Accept Invitation: Recipient receives a real-time invitation notification
+Play: Both players answer 10 questions simultaneously
+Tiebreaker: If scores are tied, a tiebreaker question determines the winner
+Scoring: Winners earn 10 points, losers earn 2 points
+Game States
+WAITING_TO_START: Game created, waiting for players
+IN_PROGRESS: Game active, players answering questions
+OVER: Game completed, winner determined
+👥 User Features
+Profile Customization
+Biography and personal information
+Academic details (major, graduation year)
+Career goals and co-op interests
+Technical interests
+External links (LinkedIn, GitHub, Portfolio)
+Work experience showcase
+Reputation System
+Points earned through:
+Answering questions correctly
+Winning trivia games
+Community contributions
+Badges for various achievements
+Public/private stats toggle
+🔒 Security
+JWT-based authentication
+Password hashing with bcrypt
+Input validation via OpenAPI middleware
+Socket.IO authentication
+Protected routes and API endpoints
+📝 Database Schema
+The application uses MongoDB with the following main collections:
+User: User accounts and profiles
+Question: Questions posted by users
+Answer: Answers to questions
+Comment: Comments on questions/answers
+Tag: Tags for categorizing content
+Chat: Chat rooms and messages
+Community: User communities
+Collection: User question collections
+Game: Game instances
+TriviaQuestion: Trivia quiz questions
+See server/models/schema/ for detailed schema definitions.
+🤝 Contributing
+This is a class project for CS 4530 at Northeastern University. Contributions follow the course guidelines and team collaboration practices.
+📄 License
+ISC License
+🙏 Acknowledgments
+Built as part of CS 4530 (Software Engineering) at Northeastern University. Inspired by Stack Overflow, designed specifically for the Northeastern community.
