@@ -1,0 +1,122 @@
+{
+  "work1": {
+    "username": "d.henderson",
+    "title": "Software Engineer Co-op",
+    "company": "HubSpot",
+    "type": "Co-op",
+    "location": "Boston, MA",
+    "startDate": "2024-01",
+    "endDate": "2024-06",
+    "description": "Full-stack development on marketing automation platform"
+  },
+  "work2": {
+    "username": "e.hopper",
+    "title": "Data Analyst Co-op",
+    "company": "HubSpot",
+    "type": "Co-op",
+    "location": "Boston, MA",
+    "startDate": "2024-07",
+    "endDate": "",
+    "description": "Analytics and reporting for customer success team"
+  },
+  "work3": {
+    "username": "r.green",
+    "title": "SDE Intern",
+    "company": "Microsoft",
+    "type": "Internship",
+    "location": "Redmond, WA",
+    "startDate": "2024-06",
+    "endDate": "2024-08",
+    "description": "Azure cloud services development"
+  },
+  "work4": {
+    "username": "c.bing",
+    "title": "PM Intern",
+    "company": "Microsoft",
+    "type": "Internship",
+    "location": "Redmond, WA",
+    "startDate": "2024-01",
+    "endDate": "2024-06",
+    "description": "Product management for Teams features"
+  },
+  "work5": {
+    "username": "e.shellstrop",
+    "title": "Risk Analyst Co-op",
+    "company": "Goldman Sachs",
+    "type": "Co-op",
+    "location": "New York, NY",
+    "startDate": "2024-01",
+    "endDate": "2024-06",
+    "description": "Market risk analysis and modeling"
+  },
+  "work6": {
+    "username": "c.anagonye",
+    "title": "Quantitative Analyst",
+    "company": "Goldman Sachs",
+    "type": "Co-op",
+    "location": "New York, NY",
+    "startDate": "2024-07",
+    "endDate": "",
+    "description": "Financial modeling and algorithm development"
+  },
+  "work7": {
+    "username": "l.knope",
+    "title": "Healthcare IT Co-op",
+    "company": "Mass General Brigham",
+    "type": "Co-op",
+    "location": "Boston, MA",
+    "startDate": "2024-01",
+    "endDate": "2024-06",
+    "description": "Electronic health records system development"
+  },
+  "work8": {
+    "username": "a.perkins",
+    "title": "Clinical Research Co-op",
+    "company": "Mass General Brigham",
+    "type": "Co-op",
+    "location": "Boston, MA",
+    "startDate": "2024-07",
+    "endDate": "",
+    "description": "Patient data analysis for clinical trials"
+  },
+  "work9": {
+    "username": "m.geller",
+    "title": "Consulting Analyst",
+    "company": "Deloitte",
+    "type": "Co-op",
+    "location": "Boston, MA",
+    "startDate": "2024-01",
+    "endDate": "2024-06",
+    "description": "Business strategy and operations consulting"
+  },
+  "work10": {
+    "username": "b.wyatt",
+    "title": "Audit Co-op",
+    "company": "Deloitte",
+    "type": "Co-op",
+    "location": "Boston, MA",
+    "startDate": "2024-07",
+    "endDate": "",
+    "description": "Financial auditing and compliance"
+  },
+  "work11": {
+    "username": "s.harrington",
+    "title": "Software Engineer Intern",
+    "company": "HubSpot",
+    "type": "Internship",
+    "location": "Boston, MA",
+    "startDate": "2024-06",
+    "endDate": "2024-08",
+    "description": "Backend development for CRM platform"
+  },
+  "work12": {
+    "username": "n.wheeler",
+    "title": "Product Manager Co-op",
+    "company": "Microsoft",
+    "type": "Co-op",
+    "location": "Redmond, WA",
+    "startDate": "2024-01",
+    "endDate": "2024-06",
+    "description": "Product strategy for Office 365"
+  }
+}

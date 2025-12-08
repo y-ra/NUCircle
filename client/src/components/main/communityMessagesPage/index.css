@@ -1,0 +1,68 @@
+.community-messages-page {
+  display: flex;
+  flex-direction: column;
+  height: 95%;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.community-btn {
+  background-color: #fff;
+  border: 2px solid #ff6b6b;
+  color: #ff6b6b;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.community-btn:hover {
+  background-color: #ff6b6b;
+  color: #fff;
+}
+
+.community-btn.active {
+  background-color: #ff6b6b;
+  color: #fff;
+}
+
+.messages-container {
+  flex: 1;
+  display: block; 
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 12px;
+  padding-top: 25px;
+  overflow-y: auto;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  max-height: 60vh;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.community-chat-header {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.community-message-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 10px 12px; */
+  border-radius: 16px;
+  margin-top: auto;
+}
+
+.community-message-textbox {
+  flex: 1;
+  padding: 15px 15px;
+  border: none;
+  border-radius: 12px;
+  resize: none;
+  outline: none;
+  font-size: 16px;
+  background-color: #FFF0F0;
+  font-size: 16px;
+}

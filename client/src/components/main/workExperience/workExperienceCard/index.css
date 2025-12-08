@@ -1,0 +1,160 @@
+.work-experience-card {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px 20px 30px;
+    margin-bottom: 16px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    gap: 12px;
+    color: #37404D;
+}
+
+.works-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#work-experience-title {
+    color: lightgreen;
+    font-weight: 600;
+}
+
+.work-type-location {
+    font-size: 16px;
+}
+
+.date-range {
+    font-size: 15px;
+    color: #94969b;
+    font-weight: 400;
+}
+
+.work-description {
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 8px 0px;
+}
+
+.actions {
+    justify-content: flex-end;
+    display: flex;
+    gap: 12px;
+    transition: background-color 0.2s ease;
+}
+
+.delete-button {
+    border-radius: 10px;
+    background: none;
+    border: none;
+    padding: 3px;
+    margin: 0;
+}
+
+.edit-button {
+    border-radius: 10px;
+    background: none;
+    border: none;
+    padding: 0px 6px;
+    margin: 0;
+    margin-right: 10px;
+    color: #4a90e2;
+}
+
+.actions button:hover {
+    cursor: pointer;
+    background: #f6f6f6;
+}
+
+.edit-mode {
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.edit-mode .form-row {
+  display: flex;
+  gap: 20px; 
+  flex-wrap: wrap;
+}
+
+.edit-mode .field-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex: 1;
+}
+
+.edit-mode .field-label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #7A818D;
+}
+
+.edit-mode .input-field {
+  flex: 1; 
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #f1f8ff;
+  border: 1px solid #e7f1fb;
+}
+
+.edit-mode .input-field:focus,
+.edit-mode .input-field:hover {
+  border: 1px solid #f1f5f9;
+  background-color: #e1ebf4;
+}
+
+.edit-mode .input-description {
+  width: 100%;
+  min-height: 100px;        
+  font-family: inherit;
+  padding: 10px 12px;
+  font-size: 14px;
+  background-color: #f1f8ff;
+  border: 1px solid #e7f1fb;
+}
+
+.edit-mode .input-description:focus,
+.edit-mode .input-description:hover {
+  border: 1px solid #f1f5f9;
+  background-color: #e1ebf4;
+}
+
+.actions .button-primary {
+  background-color: #82c0ff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.actions .button-primary.cancel {
+  background-color: #d0d0d0;
+}
+.actions .button-primary.cancel:hover {
+  background-color: #b4b4b4;
+}
+
+.actions .button-primary:hover {
+  background-color: #5aa0e0;
+  transform: none;
+  box-shadow: none;
+}
+
+
+.work-experience-card:nth-child(5n+0) #work-experience-title { color: #fcc181; } 
+.work-experience-card:nth-child(5n+1) #work-experience-title { color: #8da7fc; } 
+.work-experience-card:nth-child(5n+2) #work-experience-title { color: #c99afc; } 
+.work-experience-card:nth-child(5n+3) #work-experience-title { color: #73d8c4; } 
+.work-experience-card:nth-child(5n+4) #work-experience-title { color: #f78282; }

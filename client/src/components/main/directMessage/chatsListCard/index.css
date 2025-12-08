@@ -1,0 +1,33 @@
+.chats-list-card {
+  display: flex;
+  align-self: center;
+  padding: 12px;
+  margin-bottom: 10px;
+  margin: 0 0 10 10;
+  background-color: #f5f5f5;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.chats-list-card:hover {
+  background-color: #e0e0e0;
+}
+
+.active-chat {
+  background-color: #FFDCDC;
+}
+
+.active-chat:hover {
+  background-color: #ffecec;
+}
+
+.chat-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.chat-participant {
+  font-size: 18px;
+}

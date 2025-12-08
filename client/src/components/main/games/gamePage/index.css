@@ -1,0 +1,191 @@
+/* General Styles */
+
+.page-container {
+  padding-inline: 30px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.game-page {
+  width: 100%;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  padding-inline: 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(72, 72, 72, 0.1);
+  color: #484848;
+  box-sizing: border-box;
+}
+
+.game-header {
+  margin-bottom: 20px;
+}
+
+.game-header h1 {
+  font-size: 32px;
+  color: #484848;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.game-status {
+  color: #484848;
+  font-size: 16px;
+  background: #FFF4F4;
+  padding: 8px 20px;
+  border-radius: 20px;
+  display: inline-block;
+  font-weight: 500;
+}
+
+/* Button Spacing */
+.game-controls,
+.game-details {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 10px 10px 10px 0;
+  display: inline-block;
+}
+
+/* Button Specific Classes */
+.btn-create-game,
+.btn-leave-game,
+.btn-refresh-list,
+.btn-join-game,
+.btn-start-game {
+  background: #FF6B6B;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+}
+
+.btn-create-game:hover,
+.btn-leave-game:hover,
+.btn-refresh-list:hover,
+.btn-join-game:hover,
+.btn-start-game:hover {
+  background: #ff5252;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Game Players List */
+.game-players-list {
+  background: #FFF4F4;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.game-players-list h3 {
+  color: #484848;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.game-players-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.game-players-list li {
+  background: white;
+  padding: 10px 15px;
+  margin: 5px 0;
+  border-radius: 8px;
+  color: #484848;
+  border: 1px solid #FFF4F4;
+}
+
+/* Game Info Debug Section */
+.game-controls>div {
+  background: #FFF4F4 !important;
+  border-radius: 12px !important;
+  border: 1px solid #FFF4F4 !important;
+  color: #484848 !important;
+}
+
+.game-controls>div p {
+  color: #484848 !important;
+}
+
+.game-controls>div strong {
+  color: #484848 !important;
+}
+
+/* Available Games List */
+.game-list {
+  margin-top: 20px;
+  border-top: 2px solid #FFF4F4;
+  padding-top: 20px;
+}
+
+.game-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.game-item {
+  border: 2px solid #FFF4F4;
+  border-radius: 12px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(72, 72, 72, 0.1);
+}
+
+.game-item p {
+  margin: 8px 0;
+  color: #484848;
+}
+
+.game-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.game-item li {
+  background: #FFF4F4;
+  margin: 5px 0;
+  padding: 8px 15px;
+  border-radius: 8px;
+  color: #484848;
+}
+
+.game-item button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+/* Error Message */
+.game-error {
+  color: #FF6B6B;
+  font-weight: bold;
+  margin-top: 15px;
+  padding: 12px;
+  background: #FFF4F4;
+  border-radius: 12px;
+  border-left: 4px solid #FF6B6B;
+}

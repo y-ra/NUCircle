@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+.chat-room {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #FFF9F9;
+}
+
+.chat-header {
+  background-color: #FF6B6B;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.global-chat-messages {
+  flex: 1;
+  padding: 5px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 15px;
+}
+
+.user-name {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.gloabl-message-input {
+  display: flex;
+  padding: 15px;
+  /* border-top: 1px solid #ddd; */
+  background-color: #fff;
+}
+
+.global-message-textbox {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  margin-right: 10px;
+  width: 100%;
+  resize: none;
+  background-color: #FFF0F0;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.global-message-textbox:focus {
+  outline: none;
+  box-shadow: 0 0 8px -2px rgba(172, 172, 172, 0.481);
+}
+
+.message-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.send-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #FF6B6B;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.send-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-left: 10px; /* Adds space between the button and the error message */
+  background-color: #ffe6e6; /* Light red background for better visibility */
+  padding: 8px 10px;
+  border: 1px solid #ffcccc;
+  border-radius: 4px;
+  display: inline-block; /* Prevents it from stretching unnecessarily */
+  white-space: nowrap; /* Prevents wrapping of the message */
+}

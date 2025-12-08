@@ -1,0 +1,81 @@
+
+{
+  "question1": {
+    "title": "What are the best ways to prepare for a behavioral co-op interview?",
+    "text": "I'm applying for a healthcare-related co-op and have my first behavioral interview next week. I’m comfortable with technical interviews, but I get nervous about behavioral ones. What kinds of questions should I expect, and how can I answer them effectively?",
+    "tags": ["tag1", "tag15", "tag7"],
+    "answers": ["answer1"],
+    "askedBy": "a.perkins",
+    "askDateTime": "2025-03-10T09:22:36Z",
+    "views": ["r.green", "l.knope", "c.bing", "d.meagle"],
+    "upVotes": ["r.green", "l.knope"],
+    "downVotes": [],
+    "comments": ["comment1"],
+    "community": "community1"
+  },
+  "question2": {
+    "title": "How to tailor my resume for consulting vs. tech roles?",
+    "text": "I’m majoring in computer science with a consulting minor and plan to apply to both tech and consulting co-ops. Should I maintain separate resumes for each, or is there a good way to make one resume that fits both industries?",
+    "tags": ["tag2", "tag17", "tag11"],
+    "answers": ["answer2"],
+    "askedBy": "b.wyatt",
+    "askDateTime": "2025-03-14T15:18:27Z",
+    "views": ["a.ludgate", "j.hopper", "r.geller", "m.geller"],
+    "upVotes": ["j.hopper", "m.geller"],
+    "downVotes": [],
+    "comments": ["comment2"],
+    "community": null
+  },
+  "question3": {
+    "title": "What’s the best way to network at company info sessions?",
+    "text": "I’ve gone to a few employer sessions, but I always freeze up when it’s time to introduce myself. How can I make a good impression and actually build a meaningful connection instead of just saying hi and walking away?",
+    "tags": ["tag10", "tag7", "tag17"],
+    "answers": ["answer3"],
+    "askedBy": "t.haverford",
+    "askDateTime": "2025-03-20T08:36:51Z",
+    "views": ["m.wheeler", "n.wheeler", "c.traeger"],
+    "upVotes": ["m.wheeler"],
+    "downVotes": [],
+    "comments": ["comment3", "comment4"],
+    "community": "community2"
+  },
+  "question4": {
+    "title": "Balancing co-op work and classes — how do you manage it?",
+    "text": "Next semester I’ll be working part-time during my co-op while taking one course. Any tips for managing your time and avoiding burnout?",
+    "tags": ["tag9", "tag3"],
+    "answers": ["answer4"],
+    "askedBy": "m.geller",
+    "askDateTime": "2025-03-25T13:09:27Z",
+    "views": ["a.perkins", "c.anagonye", "n.wheeler", "p.buffay"],
+    "upVotes": ["n.wheeler"],
+    "downVotes": [],
+    "comments": ["comment5"],
+    "community": "community3"
+  },
+  "question5": {
+    "title": "How important is LinkedIn when applying for internships?",
+    "text": "I’ve heard recruiters sometimes check your LinkedIn before even reading your resume. What should I make sure to include or update to make my profile stand out?",
+    "tags": ["tag8", "tag10", "tag2"],
+    "answers": ["answer5"],
+    "askedBy": "r.green",
+    "askDateTime": "2025-03-30T16:37:52Z",
+    "views": ["p.buffay", "a.ludgate", "j.tribbiani"],
+    "upVotes": ["p.buffay"],
+    "downVotes": [],
+    "comments": ["comment6"],
+    "community": null
+  },
+  "question6": {
+    "title": "How do I know if a company’s culture will be a good fit?",
+    "text": "I’m looking at a few marketing co-ops but I’m worried about joining a team that’s too corporate or competitive. How can I tell what the culture is really like before accepting an offer?",
+    "tags": ["tag4", "tag14", "tag9"],
+    "answers": ["answer6"],
+    "askedBy": "r.green",
+    "askDateTime": "2025-04-02T09:18:27Z",
+    "views": ["t.haverford", "a.ludgate", "a.perkins"],
+    "upVotes": ["a.perkins"],
+    "downVotes": [],
+    "comments": ["comment7"],
+    "community": null
+  }
+}

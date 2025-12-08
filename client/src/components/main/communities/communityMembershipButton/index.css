@@ -1,0 +1,37 @@
+.btn-action-community {
+  padding: 8px 16px;
+  background-color: #82c0ff;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+
+.btn-action-community:hover {
+  background-color: #77a3d0;
+}
+
+.btn-join {
+  background-color: #82c0ff;
+}
+
+.btn-join:hover {
+  background-color: #77a3d0;
+}
+
+.btn-leave {
+  background-color: #ff6b6b;
+}
+
+.btn-leave:hover {
+  background-color: #e75a5a;
+}
+
+
+.community-error {
+  color: red;
+  margin-top: 16px;
+}

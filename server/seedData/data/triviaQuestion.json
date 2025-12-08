@@ -1,0 +1,172 @@
+{
+    "q1": {
+        "question": "What year did the cooperative education program (co-op) start at Northeastern University?",
+        "options": [
+            "1929",
+            "1919",
+            "1909",
+            "1899"
+        ],
+        "correctAnswer": 2
+    },
+    "q2": {
+        "question": "Which of Northeastern's colleges was the cooperative education program (co-op) program initially confined to?",
+        "options": [
+            "College of Liberal Arts",
+            "College of Engineering",
+            "College of Health Sciences",
+            "College of Business"
+        ],
+        "correctAnswer": 1
+    },
+    "q3": {
+        "question": "What was the wage that the 1st 8 Northeastern co-op students received while working?",
+        "options": [
+            "1 dollar per hour",
+            "10 cents per hour",
+            "1 dollar per day",
+            "5 cents per hour"
+        ],
+        "correctAnswer": 1
+    },
+    "q4": {
+        "question": "What percentage of undergraduate Northeastern students participate in at least 1 co-op?",
+        "options": [
+            "60%",
+            "80%",
+            "45%",
+            "95%"
+        ],
+        "correctAnswer": 3
+    },
+    "q5": {
+        "question": "Co-op experiences are available to all Northeastern students at campuses across the United States and globally.",
+        "options": [
+            "True",
+            "False",
+            "Only in the US",
+            "Only for specific majors"
+        ],
+        "correctAnswer": 0
+    },
+    "q6": {
+        "question": "What platform besides NUCircle can Northeastern students use to connect with alumni, staff, students, and friends?",
+        "options": [
+            "Student Hub",
+            "NU Workday",
+            "NUSource",
+            "PaperCut"
+        ],
+        "correctAnswer": 2
+    },
+    "q7": {
+        "question": "Is it recommended to bring copies of your resume to career fairs?",
+        "options": [
+            "No",
+            "Yes",
+            "Only if requested",
+            "Depends on the fair"
+        ],
+        "correctAnswer": 1
+    },
+    "q8": {
+        "question": "What website do Northeastern students primarily apply to co-ops via Northeastern on?",
+        "options": [
+            "NUCircle",
+            "NUSource",
+            "NUWorks",
+            "NU Engage"
+        ],
+        "correctAnswer": 2
+    },
+    "q9": {
+        "question": "What website can Northeastern students use to browse all clubs and organizations on campus?",
+        "options": [
+            "Banner",
+            "Robin",
+            "Piazza",
+            "NU Engage"
+        ],
+        "correctAnswer": 3
+    },
+    "q10": {
+        "question": "Doing a co-op that is less related to your major is bad.",
+        "options": [
+            "False, it can help you gain valuable experience and new skills",
+            "True, it is useless experience",
+            "Only if it pays well",
+            "Depends on the industry"
+        ],
+        "correctAnswer": 0
+    },
+    "q11": {
+        "question": "What is the most important thing to do when applying to a co-op?",
+        "options": [
+            "Have a strong resume that has been reviewed",
+            "Have a strong cover letter",
+            "Have accurate application info",
+            "All of the above"
+        ],
+        "correctAnswer": 3
+    },
+    "q12": {
+        "question": "Which building houses the main Northeastern dining hall?",
+        "options": [
+            "Stetson East",
+            "International Village",
+            "Curry Student Center",
+            "Ell Hall"
+        ],
+        "correctAnswer": 0
+    },
+    "q13": {
+        "question": "What is Northeastern University's mascot?",
+        "options": [
+            "The Terrier",
+            "The Husky",
+            "The Eagle",
+            "The Bear"
+        ],
+        "correctAnswer": 1
+    },
+    "q14": {
+        "question": "In what year was Northeastern University founded?",
+        "options": [
+            "1898",
+            "1908",
+            "1918",
+            "1928"
+        ],
+        "correctAnswer": 0
+    },
+    "q15": {
+        "question": "What are Northeastern's school colors?",
+        "options": [
+            "Blue and Gold",
+            "Red and White",
+            "Red and Black",
+            "Green and White"
+        ],
+        "correctAnswer": 2
+    }, 
+    "q16": {
+        "question": "Which of the following is NOT a Northeastern University campus location?",
+        "options": [
+            "Boston, MA",
+            "San Francisco, CA",
+            "Toronto, Canada",
+            "Miami, FL"
+        ],
+        "correctAnswer": 3
+    },
+    "q17": {
+        "question": "What is the name of Northeastern University's student newspaper?",
+        "options": [
+            "The Northeastern Times",
+            "The Daily Northeastern",
+            "The Huntington News",
+            "The Terrier Tribune"
+        ],
+        "correctAnswer": 2
+    }
+}

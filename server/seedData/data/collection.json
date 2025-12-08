@@ -1,0 +1,51 @@
+{
+  "collection1": {
+    "name": "Behavioral Interview Prep",
+    "description": "A curated set of questions focused on preparing for behavioral co-op interviews, including common questions and tips.",
+    "questions": ["question1", "question3", "question4"],
+    "username": "e.hopper",
+    "isPrivate": false
+  },
+  "collection2": {
+    "name": "Resume & Networking Tips",
+    "description": "Questions related to tailoring resumes, networking at info sessions, and standing out as a candidate.",
+    "questions": ["question2", "question3", "question5"],
+    "username": "b.wyatt",
+    "isPrivate": false
+  },
+  "collection3": {
+    "name": "Company Culture Insights",
+    "description": "Questions helping students understand company culture, team dynamics, and fit before accepting offers.",
+    "questions": ["question6", "question4"],
+    "username": "r.green",
+    "isPrivate": true
+  },
+  "collection4": {
+    "name": "Internship Essentials",
+    "description": "Essential questions about LinkedIn, networking, and preparing for co-ops.",
+    "questions": ["question2", "question5", "question6"],
+    "username": "t.haverford",
+    "isPrivate": false
+  },
+  "collection5": {
+    "name": "Time Management & Work-Life Balance",
+    "description": "Questions on managing co-op work with classes and avoiding burnout.",
+    "questions": ["question4"],
+    "username": "m.geller",
+    "isPrivate": true
+  },
+  "collection6": {
+    "name": "Interview & Career Growth",
+    "description": "A mix of questions covering interview prep, networking, and workplace fit.",
+    "questions": ["question1", "question2", "question3", "question5", "question6"],
+    "username": "a.ludgate",
+    "isPrivate": false
+  },
+  "collection7": {
+    "name": "Professional Development",
+    "description": "Questions aimed at improving co-op experiences and advancing skills in the workplace.",
+    "questions": ["question1", "question3", "question4", "question6"],
+    "username": "c.anagonye",
+    "isPrivate": false
+  }
+}

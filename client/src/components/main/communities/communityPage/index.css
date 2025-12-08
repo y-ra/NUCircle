@@ -1,0 +1,145 @@
+.community-page-layout {
+  display: flex;
+  gap: 32px;
+  padding: 32px;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+
+/* Main questions section */
+.questions-section {
+  flex: 1;
+  min-width: 0;
+}
+
+.section-heading {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  color: #111827;
+}
+
+/* Sidebar */
+.community-sidebar {
+  width: 300px;
+  flex-shrink: 0;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  padding: 20px 24px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  max-height: 100%;
+}
+
+.community-title {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: #1f2937;
+  margin-top: 16px;
+}
+
+.community-description {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.community-chat-container {
+  display: flex;
+  align-items: right;
+  justify-content: space-between;
+  width: 100%;
+  margin: 12px 0;
+}
+
+.community-chat-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background-color: #82c0ff; 
+  color: white;
+  text-decoration: none;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.community-chat-btn:hover {
+  background-color: rgb(112, 174, 236);
+}
+
+
+/* Members list */
+.community-members {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  flex: 1 1 auto; 
+  overflow: hidden;
+}
+
+.members-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 250px;
+  overflow-y: auto;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+
+.member-item {
+  padding: 0.6rem 1rem;
+  border-bottom: 1px solid #f3f4f6;
+  font-size: 0.95rem;
+  color: #374151;
+}
+
+.member-item:last-child {
+  border-bottom: none;
+}
+
+.delete-community-btn {
+  background-color: #dc2626; /* Red-600 */
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    transform 0.1s ease;
+  margin-top: 26px;
+  margin-bottom: 0;
+}
+
+.delete-community-btn:hover {
+  background-color: #b91c1c; /* Red-700 */
+}
+
+.delete-community-btn:active {
+  background-color: #991b1b; /* Red-800 */
+}
+
+.member-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+}
+
+.online-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}

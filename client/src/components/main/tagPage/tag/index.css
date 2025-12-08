@@ -1,0 +1,37 @@
+.tagNode {
+  place-self: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.tagNode:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.tagName {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.tagDescription {
+  font-size: 16px;
+  color: #7a7878;
+  margin-bottom: 16px;
+  text-align: left;
+  font-weight: 300;
+}
+
+/* Different tag name colors (rotating palette) */
+.tagNode:nth-child(5n+1) .tagName { color: #f78282; } 
+.tagNode:nth-child(5n+2) .tagName { color: #8da7fc; } 
+.tagNode:nth-child(5n+3) .tagName { color: #fcc181; } 
+.tagNode:nth-child(5n+4) .tagName { color: #73d8c4; } 
+.tagNode:nth-child(5n+5) .tagName { color: #c99afc; }

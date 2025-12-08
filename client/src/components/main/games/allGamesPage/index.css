@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+  background-color: #f8f9fa;
+  /* margin: 0; */
+  padding: 0;
+}
+
+.game-title {
+  font-size: 40px;
+  font-weight: 500;
+  color: #2c3849;
+  margin-bottom: 15px;
+}
+
+.game-header h1 {
+  font-size: 24px;
+  color: #484848;
+}
+
+.game-status {
+  color: #484848;
+  margin-left: 20px;
+}
+
+/* Button Spacing */
+.game-controls,
+.game-available,
+.game-details {
+  margin-bottom: 15px;
+}
+
+button {
+  margin: 10px;
+  display: inline-block;
+}
+
+/* Button Specific Classes */
+.btn-create-game,
+.btn-leave-game,
+.btn-refresh-list,
+.btn-join-game {
+  background: #FF6B6B;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+}
+
+.btn-create-game:hover,
+.btn-leave-game:hover,
+.btn-refresh-list:hover,
+.btn-join-game:hover {
+  background: #ff5252;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Modal Styles */
+.game-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(72, 72, 72, 0.2);
+  max-width: 400px;
+  width: 90%;
+  color: #484848;
+}
+
+.modal-content h2 {
+  color: #484848;
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.modal-content button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px;
+  background: #FF6B6B;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.modal-content button:hover {
+  background: #ff5252;
+  transform: translateY(-2px);
+}
+
+.modal-content button:last-child {
+  background: #6c757d;
+}
+
+.modal-content button:last-child:hover {
+  background: #5a6268;
+}
+
+/* Available Games List */
+.game-list {
+  margin-top: 20px;
+  border-top: 2px solid #FFF4F4;
+  padding-top: 20px;
+}
+
+.game-list h2 {
+  font-size: 24px;
+  color: #484848;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.game-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Error Message */
+.game-error {
+  color: #FF6B6B;
+  font-weight: bold;
+  margin-top: 15px;
+  padding: 12px;
+  background: #FFF4F4;
+  border-radius: 12px;
+  border-left: 4px solid #FF6B6B;
+}

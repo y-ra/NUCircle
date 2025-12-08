@@ -1,0 +1,334 @@
+{
+  "eleven": {
+    "firstName": "Eleven",
+    "lastName": "Hopper",
+    "username": "e.hopper",
+    "password": "$2y$10$DrtQWiSkqj2I8eGOGIVSg.frCEVPI3ZfWWSIPP3oJ3MFAVGDOKYOO",
+    "dateJoined": "2024-07-15T08:24:13Z",
+    "biography": "Has telekinetic powers and a mysterious past. Loves Eggo waffles and protecting her friends from the Upside Down.", 
+    "major": "Psychology",
+    "graduationYear": 2026,
+    "careerGoals": " data science, finance",
+    "technicalInterests": " machine learning, react"
+  },
+  "will": {
+    "firstName": "Will",
+    "lastName": "Byers",
+    "username": "w.byers",
+    "password": "$2y$10$vMeCjoR5GYbzFdFN./Ns/./pQQNfF5v26KzdEmv0s84XhHIHFXBB.",
+    "dateJoined": "2024-08-22T14:36:42Z",
+    "biography": "Experienced the horrors of the Upside Down. Often quiet and thoughtful, and has a knack for survival.",
+    "major": "Fine Arts",
+    "graduationYear": 2027
+  },
+  "mike": {
+    "firstName": "Mike",
+    "lastName": "Wheeler",
+    "username": "m.wheeler",
+    "password": "$2y$10$DrtQWiSkqj2I8eGOGIVSg.frCEVPI3ZfWWSIPP3oJ3MFAVGDOKYOO",
+    "dateJoined": "2024-09-10T09:12:55Z",
+    "biography": "Loyal friend and leader of the group. Always ready to face supernatural dangers to protect his friends.",
+    "major": "Political Science",
+    "graduationYear": 2027
+  },
+  "dustin": {
+    "firstName": "Dustin",
+    "lastName": "Henderson",
+    "username": "d.henderson",
+    "password": "$2y$10$ImZs6ncbvlI/yxJpxHMoB.6SQvRFWE75jPiN3N/6Qa10rGM3ZxQTC",
+    "dateJoined": "2024-10-05T11:47:33Z",
+    "biography": "Energetic and clever. Loves science, science fairs, and uncovering mysteries with his friends.", 
+    "major": "Computer Science",
+    "graduationYear": 2027
+  },
+  "eddie": {
+    "firstName": "Eddie",
+    "lastName": "Munson",
+    "username": "e.munson",
+    "password": "$2y$10$LLBZEeVbFdpGV6Fq1j54dOXCYpKaBQcAW.kWY9OQrdrBLGO1THn4O",
+    "dateJoined": "2024-11-12T15:28:09Z",
+    "biography": "Fun-loving and rebellious. Plays in a metal band and stands up for what he believes in.", 
+    "major": "Music",
+    "graduationYear": 2026
+  },
+  "vecna": {
+    "firstName": "Vecna",
+    "lastName": "One",
+    "username": "vecna",
+    "password": "$2y$10$7WfoPgS8uYK3B/Tlz0747.GR7EfnYFuV7IgP3M2xxsGOXeSCsxgt.",
+    "dateJoined": "2024-12-03T17:52:21Z",
+    "biography": "Mysterious and sinister entity from the Upside Down, feared by all who know of him.", 
+    "major": "Philosophy",
+    "graduationYear": 2025
+  },
+  "billy": {
+    "firstName": "Billy",
+    "lastName": "Hargrove",
+    "username": "b.hargrove",
+    "password": "$2y$10$/H1IybtXVOv5Q1wXyUJHQ.KOXLRGOOP.wDEVwWIx6sHTZscOmxiKa",
+    "dateJoined": "2025-01-18T20:14:39Z",
+    "biography": "Cocky and athletic. Has a tough exterior but a complicated family life.",
+    "major": "Physical Education",
+    "graduationYear": 2025
+  },
+  "steve": {
+    "firstName": "Steve",
+    "lastName": "Harrington",
+    "username": "s.harrington",
+    "password": "$2y$10$2E0yRq/tbRACjinD213ld.psZxza0B6vgKLU3MMBgHQZrDmeyEg36",
+    "dateJoined": "2024-06-30T10:42:18Z",
+    "biography": "From a former high school heartthrob to a loyal babysitter and friend, wielding a baseball bat against monsters.", 
+     "major": "Education",
+    "graduationYear": 2026
+  },
+  "max": {
+    "firstName": "Max",
+    "lastName": "Mayfield",
+    "username": "m.mayfield",
+    "password": "$2y$10$MF/HKGELwfYc8XuwzR6NoOfKUJsckbd/bO31VOyoQ41sTrEYoCwtm",
+    "dateJoined": "2024-08-08T16:37:52Z",
+    "biography": "Skater girl with a sharp wit. Brave and resourceful when it comes to supernatural threats.", 
+    "major": "Graphic Design",
+    "graduationYear": 2027
+  },
+  "nancy": {
+    "firstName": "Nancy",
+    "lastName": "Wheeler",
+    "username": "n.wheeler",
+    "password": "$2y$10$3bHLtRMYH7SaRB2WNMH6Xe0.x6kGLQtzib4N29j8OmGLfkNEJsIRu",
+    "dateJoined": "2024-05-15T08:24:13Z",
+    "biography": "Curious and determined. Investigates mysteries and isn’t afraid to stand up to danger.",
+    "major": "Journalism",
+    "graduationYear": 2026
+  },
+  "jim": {
+    "firstName": "Jim",
+    "lastName": "Hopper",
+    "username": "jim.hopper",
+    "password": "$2y$10$BMljSyhItyuxzw0mUxDci.gZJQAmvmPP0ayh3Z0aUtGXmhj2piXy.",
+    "dateJoined": "2024-06-18T14:36:42Z",
+    "biography": "Hawkins’ chief of police. Stern but caring, always trying to protect the town from supernatural threats.", 
+    "major": "Criminal Justice",
+    "graduationYear": 2025
+  },
+  "lucas": {
+    "firstName": "Lucas",
+    "lastName": "Sinclair",
+    "username": "l.sinclair",
+    "password": "$2y$10$phA2klqJMd6p3d0kYm.9KeyMKqkT5FHTATyb08ycj3XnfxuNZLUci",
+    "dateJoined": "2024-07-20T09:12:55Z",
+    "biography": "Brave and resourceful. Skilled with strategy and makes tough choices to help his friends.",
+    "major": "Biology",
+    "graduationYear": 2027
+  },
+  "joey": {
+    "firstName": "Joey",
+    "lastName": "Tribbiani",
+    "username": "j.tribbiani",
+    "password": "$2y$10$MpUXnmMEtkPpZP3Q4UcY/uMbxSgI6h24Trh5cMRyHAmbUkAHEn7gu",
+    "dateJoined": "2024-08-22T11:47:33Z",
+    "biography": "Charming and goofy. Loves food and friends, often providing comic relief in tense moments.",
+    "major": "Theater",
+    "graduationYear": 2025
+  },
+  "rachel": {
+    "firstName": "Rachel",
+    "lastName": "Green",
+    "username": "r.green",
+    "password": "$2y$10$r1mCNRSQc2NGidcsVVBvVuvNuApX3doKiLT0FItTAfNG5cxrfo.yy",
+    "dateJoined": "2024-09-25T15:28:09Z",
+    "biography": "Fashion-forward and ambitious. Cares deeply for her friends and navigates life with style and grace.",
+    "major": "Fashion Design",
+    "graduationYear": 2026
+  },
+  "chandler": {
+    "firstName": "Chandler",
+    "lastName": "Bing",
+    "username": "c.bing",
+    "password": "$2y$10$PctnA5D7XPcnk8WaomhYPuLdVkJ0Re9ojTp.IJgt/f73xVlUDKekW",
+    "dateJoined": "2024-10-27T17:52:21Z",
+    "biography": "Sarcastic and witty. Uses humor to navigate awkward situations and support friends through tough times.", 
+    "major": "Business Administration",
+    "graduationYear": 2025
+  },
+  "phoebe": {
+    "firstName": "Phoebe",
+    "lastName": "Buffay",
+    "username": "p.buffay",
+    "password": "$2y$10$EQw1SwlF4tnUM43eRz9oNO6rngdtIha0ihZWErRRSKSBJ.VgR6AMu",
+    "dateJoined": "2024-11-30T20:14:39Z",
+    "biography": "Eccentric and musical. Believes in spirits and mystical things, with a heart full of compassion.", 
+    "major": "Music",
+    "graduationYear": 2026
+  },
+  "ross": {
+    "firstName": "Ross",
+    "lastName": "Geller",
+    "username": "r.geller",
+    "password": "$2y$10$2ObFKPxUqIkYDhbaGhMnn.NSNWWJfc5vXQOvl26XutKAKP3sYK3NO",
+    "dateJoined": "2024-12-02T13:09:27Z",
+    "biography": "Intelligent and a bit neurotic. Obsessed with paleontology and the details of everyday life.",
+    "major": "Paleontology",
+    "graduationYear": 2025
+  },
+  "monica": {
+    "firstName": "Monica",
+    "lastName": "Geller",
+    "username": "m.geller",
+    "password": "$2y$10$U74MeU/cGoKlPwNbOrXIDOrhNxa963jfWR/38bXYK3AOThnl/pnCi",
+    "dateJoined": "2025-01-05T10:42:18Z",
+    "biography": "Competitive and perfectionist. Loves cooking and cleaning, always striving to be the best.",
+    "major": "Culinary Arts",
+    "graduationYear": 2025
+  },
+  "leslie": {
+    "firstName": "Leslie",
+    "lastName": "Knope",
+    "username": "l.knope",
+    "password": "$2y$10$CNKp8BD/7aUOWF1biseDzeKI6JzStFX6yKnTKvIKLz0BJ08DKt4Mm",
+    "dateJoined": "2025-02-08T16:37:52Z",
+    "biography": "Ambitious and organized. Passionate about public service and making her community better.",
+    "major": "Public Administration",
+    "graduationYear": 2025
+  },
+  "ron": {
+    "firstName": "Ron",
+    "lastName": "Swanson",
+    "username": "r.swanson",
+    "password": "$2y$10$UifzSspcCvPgd0vwPQcf9.amfvYC2b2Zuvln3g9l3KxvrgckInPTW",
+    "dateJoined": "2024-12-15T07:42:18Z",
+    "biography": "Stoic and private. Loves woodworking, breakfast meats, and avoiding unnecessary bureaucracy.",
+    "major": "Engineering",
+    "graduationYear": 2026
+  },
+  "april": {
+    "firstName": "April",
+    "lastName": "Ludgate",
+    "username": "a.ludgate",
+    "password": "$2y$10$KbAtmlIYTrGJ5yYSMODnqORiPshBgKJdAERFTJ0mdLR18tGQURsay",
+    "dateJoined": "2024-11-18T11:19:44Z",
+    "biography": "Deadpan and sarcastic. Prefers to keep people at a distance but is fiercely loyal to those she trusts.",
+    "major": "Art History",
+    "graduationYear": 2027
+  },
+  "andy": {
+    "firstName": "Andy",
+    "lastName": "Dwyer",
+    "username": "a.dwyer",
+    "password": "$2y$10$Pi3YGic4ewglt4bSwH8xxOUFw86T2U/eEvMIh1Mf.W4JsuOAwwoEm",
+    "dateJoined": "2024-12-20T08:36:51Z",
+    "biography": "Goofy and fun-loving. Has a big heart and a love for music, despite not always being competent.",
+    "major": "Music",
+    "graduationYear": 2028
+  },
+  "ben": {
+    "firstName": "Ben",
+    "lastName": "Wyatt",
+    "username": "b.wyatt",
+    "password": "$2y$10$CXVXe88PCe/1k61sf7GhTO0ReMT1PDsyBO/1HygZps1ynwQvJ7SKy",
+    "dateJoined": "2025-01-30T15:21:38Z",
+    "biography": "Responsible and practical. Often the voice of reason in his social circle, with a love for rules and order.",
+    "major": "Accounting",
+    "graduationYear": 2025
+  },
+  "ann": {
+    "firstName": "Ann",
+    "lastName": "Perkins",
+    "username": "a.perkins",
+    "password": "$2y$10$kxvXvEsdFTZ23H26z2jEb.vfgDo8E96hMnhwHxKFps7/uQPENMsqC",
+    "dateJoined": "2025-01-02T09:18:27Z",
+    "biography": "Friendly and caring. Devoted to helping friends and keeping relationships strong.",
+    "major": "Nursing",
+    "graduationYear": 2026
+  },
+  "tom": {
+    "firstName": "Tom",
+    "lastName": "Haverford",
+    "username": "t.haverford",
+    "password": "$2y$10$Tff6D5.4Kz6BJgv0RE3UguHVOj7ZVqmZOY5NH//xSGn6vlv.EMkDG",
+    "dateJoined": "2025-02-05T08:15:44Z",
+    "biography": "Charismatic and ambitious. Loves the spotlight and has a knack for entrepreneurship.",
+    "major": "Business Administration",
+    "graduationYear": 2026
+  },
+  "jerry": {
+    "firstName": "Jerry",
+    "lastName": "Gergich",
+    "username": "j.gergich",
+    "password": "$2y$10$DGL2hTHGdhCBcFee.6qSRuPvw2Iu4z7Cs/ZRshl8CBx8/5/c/W8ru",
+    "dateJoined": "2025-02-08T13:47:22Z",
+    "biography": "Kind-hearted but bumbling. Often the target of jokes, but always tries his best.",
+    "major": "Art",
+    "graduationYear": 2025
+  },
+  "donna": {
+    "firstName": "Donna",
+    "lastName": "Meagle",
+    "username": "d.meagle",
+    "password": "$2y$10$GkZA2s10bHT7C7qd6thsn.pXJzZ8hKW0jHg4e2R8jnVU1InVWjfpG",
+    "dateJoined": "2025-03-10T10:22:36Z",
+    "biography": "Confident and stylish. Enjoys luxury and the finer things in life, while keeping friends entertained.",
+    "major": "Communications",
+    "graduationYear": 2025
+  },
+  "chris": {
+    "firstName": "Chris",
+    "lastName": "Traeger",
+    "username": "c.traeger",
+    "password": "$2y$10$dpa4HQqht87JN5.d6UQNfuBg8x8pMS1NcFEwUw9ks5coTQgRan6PK",
+    "dateJoined": "2025-03-14T09:38:52Z",
+    "biography": "Overly enthusiastic and extremely positive. Tries to motivate everyone around him with energy and optimism.",
+    "major": "Health Sciences",
+    "graduationYear": 2026
+  },
+  "eleanor": {
+    "firstName": "Eleanor",
+    "lastName": "Shellstrop",
+    "username": "e.shellstrop",
+    "password": "$2y$10$1Sf1mqWJ9W/3xX2MJ2VJOuLcaGMzLwv5MkS4IOewhWv4HarD97q4G",
+    "dateJoined": "2025-03-17T11:27:09Z",
+    "biography": "Self-centered but gradually learns empathy. Finds herself in morally complex situations but grows over time.",
+    "major": "Marketing",
+    "graduationYear": 2027
+  },
+  "chidi": {
+    "firstName": "Chidi",
+    "lastName": "Anagonye",
+    "username": "c.anagonye",
+    "password": "$2y$10$1uLPvvjq3MRPBDSBeQip3OV..p8rHoP3a.e97MEzWS2u8T6DJxslW",
+    "dateJoined": "2023-06-16T10:45:32Z",
+    "biography": "Ethical and indecisive. Constantly agonizes over making the right choice, often overthinking everything.",
+    "major": "Philosophy",
+    "graduationYear": 2025
+  },
+  "tahani": {
+    "firstName": "Tahani",
+    "lastName": "Al-Jamil",
+    "username": "t.aljamil",
+    "password": "$2y$10$nMwRJwPXjAToGtexj4Q1cOgzNw8sJDUtbRkPplgUk182KbWxNGeW.",
+    "dateJoined": "2023-08-19T13:27:56Z",
+    "biography": "Elegant and glamorous. Loves hosting and being admired, but secretly craves genuine connection.",
+    "major": "Event Management",
+    "graduationYear": 2026
+  },
+  "jason": {
+    "firstName": "Jason",
+    "lastName": "Mendoza",
+    "username": "j.mendoza",
+    "password": "$2y$10$qMzF5oK2w70RCTXrJYbLs.QKEOla6F3FFB1y.yvpY0xjGGNCPFD3m",
+    "dateJoined": "2023-11-09T12:03:19Z",
+    "biography": "Energetic and confident. Often makes mistakes but is always learning from them.",
+    "major": "Dance",
+    "graduationYear": 2028
+  },
+  "michael": {
+    "firstName": "Michael",
+    "lastName": "Demon",
+    "username": "demon",
+    "password": "$2y$10$iCJ9dldS6H5w1Shbqa2rcujCDEBblghCf/Y/oZ04hIt/WY7UgKi8C",
+    "dateJoined": "2024-01-11T16:44:37Z",
+    "biography": "Meticulous and rule-focused. Strives to do everything perfectly, often acting as a voice of reason.",
+    "major": "Computer Science",
+    "graduationYear": 2025
+  }
+}

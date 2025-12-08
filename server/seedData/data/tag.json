@@ -1,0 +1,118 @@
+{
+  "tag1": {
+    "name": "interview-prep",
+    "description": "Tips and advice for preparing for technical, behavioral, and co-op interviews."
+  },
+  "tag2": {
+    "name": "resume-building",
+    "description": "Guidance on crafting strong resumes and portfolios for co-op and internship applications."
+  },
+  "tag3": {
+    "name": "co-op-experience",
+    "description": "Stories and insights from students about their past co-op and internship experiences."
+  },
+  "tag4": {
+    "name": "company-culture",
+    "description": "Discussions about workplace culture, environment, and management at different companies."
+  },
+  "tag5": {
+    "name": "application-process",
+    "description": "Information and timelines on applying to co-op and internship positions at various companies."
+  },
+  "tag6": {
+    "name": "technical-skills",
+    "description": "Conversations about programming languages, frameworks, and tools useful for co-op positions."
+  },
+  "tag7": {
+    "name": "career-advice",
+    "description": "General advice for professional growth, networking, and navigating career decisions."
+  },
+  "tag8": {
+    "name": "linkedin-tips",
+    "description": "How to optimize your LinkedIn profile to stand out to recruiters and peers."
+  },
+  "tag9": {
+    "name": "work-life-balance",
+    "description": "Sharing experiences and strategies for maintaining balance during co-op or full-time roles."
+  },
+  "tag10": {
+    "name": "networking",
+    "description": "Best practices for building meaningful professional connections both online and in-person."
+  },
+  "tag11": {
+    "name": "software-engineering",
+    "description": "Development, testing, and maintenance of software applications across industries."
+  },
+  "tag12": {
+    "name": "data-science",
+    "description": "Exploring trends, analytics, and insights through data collection and modeling."
+  },
+  "tag13": {
+    "name": "finance",
+    "description": "Careers and co-op experiences related to banking, investment, and financial analysis."
+  },
+  "tag14": {
+    "name": "marketing",
+    "description": "Brand strategy, content creation, and digital marketing roles for creative-minded students."
+  },
+  "tag15": {
+    "name": "healthcare",
+    "description": "Opportunities in hospitals, research, biotechnology, and public health sectors."
+  },
+  "tag16": {
+    "name": "design",
+    "description": "UX/UI design, product design, and creative industry experiences for visual thinkers."
+  },
+  "tag17": {
+    "name": "consulting",
+    "description": "Advisory and problem-solving roles across business, tech, and strategy domains."
+  },
+  "tag18": {
+    "name": "research",
+    "description": "Academic or industry research experiences in labs, think tanks, or innovation teams."
+  },
+  "tag19": {
+    "name": "project-management",
+    "description": "Roles focused on coordinating teams, timelines, and deliverables across disciplines."
+  },
+  "tag20": {
+    "name": "education",
+    "description": "Co-ops and internships related to teaching, tutoring, and educational technology."
+  },
+  "tag21": {
+    "name": "communications",
+    "description": "Public relations, journalism, and corporate communications experiences."
+  },
+  "tag22": {
+    "name": "cybersecurity",
+    "description": "Protecting systems and networks from digital threats and vulnerabilities."
+  },
+  "tag23": {
+    "name": "product-management",
+    "description": "Overseeing product development from ideation to launch and user feedback."
+  },
+  "tag24": {
+    "name": "sustainability",
+    "description": "Work focused on environmental impact, green technology, and sustainable development."
+  },
+  "tag25": {
+    "name": "entrepreneurship",
+    "description": "Starting or joining early-stage ventures to bring new ideas to market."
+  },
+  "tag26": {
+    "name": "law-and-policy",
+    "description": "Legal, governmental, and public policy-related co-ops and internships."
+  },
+  "tag27": {
+    "name": "human-resources",
+    "description": "Recruiting, talent management, and employee relations across organizations."
+  },
+  "tag28": {
+    "name": "mechanical-engineering",
+    "description": "Designing and building mechanical systems, robotics, or manufacturing solutions."
+  },
+  "tag29": {
+    "name": "electrical-engineering",
+    "description": "Projects involving circuits, embedded systems, or electrical design."
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "message1": {
+    "msg": "Hey everyone! Does anyone have tips for preparing for the Morgan Stanley co-op interviews?",
+    "msgFrom": "e.hopper",
+    "msgDateTime": "2025-04-22T14:30:15Z",
+    "type": "global"
+  },
+  "message2": {
+    "msg": "I found that practicing behavioral questions with a friend helped me a lot. Also, research the company culture beforehand.",
+    "msgFrom": "w.byers",
+    "msgDateTime": "2025-04-22T14:32:28Z",
+    "type": "global"
+  },
+  "message3": {
+    "msg": "For technical interviews, definitely brush up on data structures and algorithms. LeetCode is your friend!",
+    "msgFrom": "m.wheeler",
+    "msgDateTime": "2025-04-22T14:34:52Z",
+    "type": "global"
+  },
+  "message4": {
+    "msg": "Has anyone gotten offers from HubSpot? How competitive is the application process for their co-op program?",
+    "msgFrom": "d.henderson",
+    "msgDateTime": "2025-04-22T14:38:17Z",
+    "type": "global"
+  },
+  "message5": {
+    "msg": "HubSpot was really friendly in my experience. They value cultural fit a lot, so show enthusiasm and teamwork skills!",
+    "msgFrom": "e.munson",
+    "msgDateTime": "2025-04-22T14:41:05Z",
+    "type": "global"
+  },
+  "message6": {
+    "msg": "Quick question: Does anyone know if we can list freelance projects on our Northeastern co-op profile?",
+    "msgFrom": "vecna",
+    "msgDateTime": "2025-04-22T14:45:33Z",
+    "type": "global"
+  },
+  "message7": {
+    "msg": "Yes, you can! Just make sure to highlight the skills and outcomes relevant to co-op roles.",
+    "msgFrom": "b.hargrove",
+    "msgDateTime": "2025-04-22T14:48:22Z",
+    "type": "global"
+  },
+  "message8": {
+    "msg": "Anyone interested in doing a mock interview session this weekend? Could help prep for multiple companies.",
+    "msgFrom": "s.harrington",
+    "msgDateTime": "2025-04-22T14:52:40Z",
+    "type": "global"
+  },
+  "message9": {
+    "msg": "I’m in! We could split into pairs and rotate questions. Should we use Zoom or Teams?",
+    "msgFrom": "m.mayfield",
+    "msgDateTime": "2025-04-22T14:55:18Z",
+    "type": "global"
+  },
+  "message10": {
+    "msg": "Heads up: I just uploaded a new set of co-op tips to the community board. Check it out and comment if you have feedback!",
+    "msgFrom": "n.wheeler",
+    "msgDateTime": "2025-04-22T15:01:47Z",
+    "type": "global"
+  },
+  "communityMessage1": {
+    "msg": "Welcome to the HubSpot community! Feel free to share co-op experiences and tips.",
+    "msgFrom": "e.hopper",
+    "msgDateTime": "2025-04-20T10:00:00Z",
+    "type": "community",
+    "communityId": "community1"
+  },
+  "communityMessage2": {
+    "msg": "Has anyone interviewed with HubSpot recently? What were the questions like?",
+    "msgFrom": "w.byers",
+    "msgDateTime": "2025-04-20T11:30:00Z",
+    "type": "community",
+    "communityId": "community1"
+  },
+  "communityMessage3": {
+    "msg": "The technical round focused on React and API integrations. Brush up on hooks!",
+    "msgFrom": "m.wheeler",
+    "msgDateTime": "2025-04-20T12:15:00Z",
+    "type": "community",
+    "communityId": "community1"
+  },
+  "communityMessage4": {
+    "msg": "Don't forget to showcase your teamwork skills, HubSpot values collaboration.",
+    "msgFrom": "d.henderson",
+    "msgDateTime": "2025-04-20T14:00:00Z",
+    "type": "community",
+    "communityId": "community1"
+  },
+  "communityMessage5": {
+    "msg": "Thanks everyone! This is super helpful for my upcoming interview.",
+    "msgFrom": "e.munson",
+    "msgDateTime": "2025-04-20T15:30:00Z",
+    "type": "community",
+    "communityId": "community1"
+  },
+  "directMessage1": {
+    "msg": "Hey, can we schedule a 1:1 about the interview?",
+    "msgFrom": "e.hopper",
+    "msgTo": "m.wheeler",
+    "msgDateTime": "2025-04-21T09:00:00Z",
+    "type": "direct"
+  },
+  "directMessage2": {
+    "msg": "Sure! How about tomorrow at 2pm?",
+    "msgFrom": "m.wheeler",
+    "msgTo": "e.hopper",
+    "msgDateTime": "2025-04-21T09:05:00Z",
+    "type": "direct"
+  },
+  "directMessage3": {
+    "msg": "Perfect, see you then!",
+    "msgFrom": "e.hopper",
+    "msgTo": "m.wheeler",
+    "msgDateTime": "2025-04-21T09:10:00Z",
+    "type": "direct"
+  }
+}

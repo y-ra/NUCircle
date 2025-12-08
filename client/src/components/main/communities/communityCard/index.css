@@ -1,0 +1,41 @@
+.community-card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.community-card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.community-card-title {
+  margin-top: 0;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.community-card-description {
+  font-size: 16px;
+  color: #7a7878;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.community-card-meta {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 0.25rem;
+}
+
+.community-card-actions {
+  margin-top: 16px;
+  gap: 10px;
+  display: flex;
+}

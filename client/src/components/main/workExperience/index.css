@@ -1,0 +1,30 @@
+.work-experience-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.work-experience-section h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #323b48;
+}
+
+.work-experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.add-work-button {
+    background-color: #82c0ff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}

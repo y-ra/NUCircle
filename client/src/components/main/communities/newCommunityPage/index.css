@@ -1,0 +1,176 @@
+.new-community-page {
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px 50px;
+  max-width: 600px;
+  margin: 40px auto;
+  box-shadow: 0 2px 6px -2px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.new-community-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #314157;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.new-community-label {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1F2937;
+  margin-top: 30px;
+}
+
+.new-community-input {
+  width: 100%;
+  color: #333;
+  padding: 14px 16px;
+  border-radius: 20px;
+  border: 1px solid #f2eaea;
+  background-color: #FFF9F9;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.new-community-textarea {
+  min-height: 120px;        
+  font-family: inherit;       
+  font-size: 16px;
+  line-height: 1.4;
+  padding: 14px 16px;
+  border: 1px solid #f2eaea;
+  border-radius: 20px;
+  background-color: #FFF9F9;
+  color: #333;
+  width: 100%;
+  box-sizing: border-box;
+  resize: none;
+  overflow-wrap: break-word;
+  outline: none;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.new-community-input:focus,
+.new-community-input:hover {
+  border-color: #f9a3a3;
+  background-color: #fff4f4;
+}
+
+.new-community-textarea:focus,
+.new-community-textarea:hover {
+  border-color: #f9a3a3;
+  background-color: #fff4f4;
+}
+
+
+/* Checkbox CSS
+ source: https://uiverse.io/aboalsim114/mean-vampirebat-54 */
+
+.new-community-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 16px;
+  color: #555;
+  margin-top: 30px;
+  margin-left: 4px;
+}
+
+.checkbox-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.checkmark {
+  position: relative;
+  box-shadow: rgb(255, 84, 0) 0px 0px 0px 2px;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  flex-shrink: 0;
+  margin-top: -1px;
+  transition: all 0.2s ease 0s;
+  cursor: pointer;
+  transform-origin: 0px 10px;
+  border-radius: 4px;
+  margin: -1px 10px 0px 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.checkbox-wrapper input:checked ~ .checkmark {
+  box-shadow: rgb(255, 84, 0) 0px 0px 0px 2px;
+  background-color: rgba(245, 24, 24, 0.5);
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  flex-shrink: 0;
+  margin-top: -1px;
+  transition: all 0.2s ease 0s;
+  cursor: pointer;
+  transform-origin: 0px 10px;
+  border-radius: 4px;
+  margin: -1px 10px 0px 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.new-community-checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox-wrapper input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.checkbox-wrapper .checkmark:after {
+  left: 0.45em;
+  top: 0.25em;
+  width: 0.25em;
+  height: 0.5em;
+  border: solid white;
+  border-width: 0 0.15em 0.15em 0;
+  transform: rotate(45deg);
+  transition: all 500ms ease-in-out;
+}
+
+.new-community-submit {
+  background-color: #ff6b6b;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 1rem;
+  align-self: center;
+  width: 100%;
+}
+
+.new-community-submit:hover {
+  background-color: #e55a5a;
+}
+
+.new-community-error {
+  color: #EF4444;
+  font-size: 14px;
+  margin-top: 8px;
+}

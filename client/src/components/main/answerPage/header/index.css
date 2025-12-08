@@ -1,0 +1,27 @@
+.answers-header-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.answers-title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #465569;
+}
+
+.ansButton {
+  background-color: #82c0ff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.ansButton:hover {
+  background-color: #77a3d0;
+}

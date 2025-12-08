@@ -1,0 +1,79 @@
+.signup-form {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 13.5px -2px rgba(0, 0, 0, 0.07);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  border-radius: 25px;
+}
+
+.signup-form h2 {
+  font-size: 30px;
+  color: #1F2937;
+  margin: 0px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.join-message {
+  font-size: 16px;
+  color: #7A818D;
+  font-weight: 400;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.signup-form h4 {
+  font-size: 16px;;
+  color: #484848;
+  margin: 15px 0 5px; 
+  text-align: left; 
+  width: 100%; 
+  max-width: 400px; 
+  font-weight: normal;
+}
+
+.signup-form form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.name-fields {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* space between first and last name */
+  width: 100%;
+  max-width: 400px;
+}
+
+.name-fields h4 {
+  margin-bottom: 15px;
+}
+
+
+.reg-input {
+  padding-left: 15px;
+  border-radius: 25px; 
+  background-color: #FFF4F4; /* Light pink background */
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  box-sizing: border-box;
+  height: 40px; /* Adjust height to match padding and icon */
+  color: #323232;
+}
+
+.reg-input::placeholder {
+  color: #B0B7C4; /* Light gray or whatever color you want */
+}
+
+.reg-input:focus {
+  outline: none;
+  box-shadow: 0 0 8px -2px rgba(172, 172, 172, 0.481);
+}

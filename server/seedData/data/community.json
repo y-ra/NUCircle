@@ -1,0 +1,109 @@
+{
+  "community1": {
+    "name": "HubSpot",
+    "description": "A community for students who have completed or are applying for HubSpot co-ops. Discuss interview tips, tech stack insights, and what it’s like to work in a collaborative, fast-paced marketing tech company.",
+    "participants": [
+      "e.hopper",
+      "w.byers",
+      "m.wheeler",
+      "d.henderson",
+      "e.munson",
+      "vecna",
+      "b.hargrove",
+      "s.harrington",
+      "m.mayfield",
+      "n.wheeler",
+      "j.tribbiani",
+      "l.sinclair"
+    ],
+    "visibility": "PUBLIC",
+    "admin": "e.hopper",
+    "visitStreaks": []
+  },
+  "community2": {
+    "name": "Microsoft",
+    "description": "Connect with fellow students and alumni who have interned or co-oped at Microsoft. Share advice on technical interviews, team culture, and transitioning into full-time roles.",
+    "participants": ["j.tribbiani", "r.green", "c.bing", "p.buffay", "r.geller", "m.geller"],
+    "visibility": "PUBLIC",
+    "admin": "r.green",
+    "visitStreaks": []
+  },
+  "community3": {
+    "name": "Goldman Sachs",
+    "description": "Network with Northeastern students and alumni in finance, risk analysis, and software roles at Goldman Sachs. Share insights on the interview process and company culture.",
+    "participants": ["e.shellstrop", "c.anagonye", "t.aljamil", "j.mendoza", "demon"],
+    "visibility": "PUBLIC",
+    "admin": "e.shellstrop",
+    "visitStreaks": []
+  },
+  "community4": {
+    "name": "Mass General Brigham",
+    "description": "For students in healthcare, data, and IT roles within MGB. Share insights on healthcare tech, patient data projects, and navigating co-ops in clinical and research environments.",
+    "participants": [
+      "l.knope",
+      "r.swanson",
+      "a.ludgate",
+      "a.dwyer",
+      "b.wyatt",
+      "a.perkins",
+      "t.haverford",
+      "j.gergich",
+      "d.meagle",
+      "c.traeger"
+    ],
+    "visibility": "PUBLIC",
+    "admin": "l.knope",
+    "visitStreaks": []
+  },
+  "community5": {
+    "name": "Pre-Health & Medical Co-ops",
+    "description": "A space for students interested in healthcare, pre-med, nursing, or research co-ops. Discuss hospital experiences, lab rotations, and application strategies for medical or healthcare-related co-ops.",
+    "participants": [
+      "e.munson",
+      "vecna",
+      "b.hargrove",
+      "s.harrington",
+      "m.mayfield",
+      "n.wheeler",
+      "j.hopper",
+      "l.sinclair",
+      "j.gergich",
+      "r.green"
+    ],
+    "visibility": "PRIVATE",
+    "admin": "a.perkins",
+    "visitStreaks": []
+  },
+  "community6": {
+    "name": "Deloitte",
+    "description": "A hub for students who have worked in consulting, analytics, or audit co-ops at Deloitte. Share insights about consulting projects, work culture, and recruitment tips.",
+    "participants": [
+      "p.buffay",
+      "r.geller",
+      "m.geller",
+      "l.knope",
+      "r.swanson",
+      "a.ludgate",
+      "a.dwyer",
+      "b.wyatt",
+      "a.perkins",
+      "t.haverford",
+      "j.gergich",
+      "d.henderson",
+      "c.traeger",
+      "e.shellstrop",
+      "c.anagonye"
+    ],
+    "visibility": "PUBLIC",
+    "admin": "m.geller",
+    "visitStreaks": []
+  },
+  "community7": {
+    "name": "Pre-Law & Policy",
+    "description": "For students exploring law, government, or policy-oriented co-ops. Discuss LSAT prep, legal internships, and networking within the legal field.",
+    "participants": ["l.knope", "r.geller", "a.ludgate", "r.swanson", "b.wyatt", "a.perkins", "t.haverford", "j.gergich"],
+    "visibility": "PRIVATE",
+    "admin": "r.swanson",
+    "visitStreaks": []
+  }
+}

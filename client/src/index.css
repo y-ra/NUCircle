@@ -1,0 +1,11 @@
+html {
+  height: 99%;
+}
+
+body,
+#root {
+  height: 100%;
+  font-family: "Instrument Sans", sans-serif;
+  /* font-family: "Rubik", sans-serif; */
+  background-color: #FFF8F8;
+}

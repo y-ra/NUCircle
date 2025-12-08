@@ -1,0 +1,123 @@
+/* Modal overlay - covers entire screen */
+.quiz-invite-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Modal card */
+.quiz-invite-modal {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 450px;
+  width: 90%;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.quiz-invite-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.quiz-invite-header h2 {
+  color: #FF6B6B;
+  font-size: 28px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.quiz-invite-body {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.quiz-invite-message {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.quiz-invite-message strong {
+  color: #FF6B6B;
+  font-weight: 600;
+}
+
+.quiz-invite-question {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}
+
+.quiz-invite-actions {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.quiz-invite-btn {
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 140px;
+}
+
+.quiz-invite-btn.accept {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.quiz-invite-btn.accept:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.4);
+}
+
+.quiz-invite-btn.decline {
+  background-color: #f44336;
+  color: white;
+}
+
+.quiz-invite-btn.decline:hover {
+  background-color: #da190b;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(244, 67, 54, 0.4);
+}
+
+.quiz-invite-btn:active {
+  transform: translateY(0);
+}

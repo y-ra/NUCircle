@@ -1,0 +1,83 @@
+.game-item {
+  border: 2px solid #FFF4F4;
+  border-radius: 12px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(72, 72, 72, 0.1);
+  transition: all 0.2s ease;
+}
+
+.game-item:hover {
+  border-color: #FF6B6B;
+  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.2);
+}
+
+.game-item p {
+  margin: 8px 0;
+  color: #484848;
+  font-size: 14px;
+}
+
+.game-item strong {
+  color: #484848;
+  font-weight: 600;
+}
+
+.game-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.game-item li {
+  background: #FFF4F4;
+  margin: 5px 0;
+  padding: 8px 15px;
+  border-radius: 8px;
+  color: #484848;
+  font-size: 14px;
+}
+
+.game-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.game-item button {
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-join-game {
+  background: #FF6B6B;
+  color: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(255, 107, 107, 0.3);
+}
+
+.btn-join-game:hover {
+  background: #ff5252;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+}
+
+.btn-delete-game {
+  background: #6c757d;
+  color: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(108, 117, 125, 0.3);
+}
+
+.btn-delete-game:hover {
+  background: #5a6268;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(108, 117, 125, 0.4);
+}

@@ -1,0 +1,134 @@
+.comment-section {
+  border-radius: 14px;
+  background-color: #FFF9F9;
+  padding: 16px 16px 10px 16px;
+  margin: 5px;
+  margin-top: 20px;
+  width: auto; /* instead of 100% */
+  max-width: 100%;
+}
+
+.hide-comments-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hide-comments-btn {
+  background: none;
+  color: #987ade;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.show-comments-btn {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #ae8ff5;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 6px 10px 0px 10px;
+  margin: 0;
+  margin-left: -10px;
+  border-radius: 15px;
+  transition: background-color 0.4s ease;
+}
+
+.comments-label {
+  padding-bottom: 6px;
+}
+
+.show-comments-btn:hover {
+  background-color: #f2eefb;
+}
+
+.hide-comments-btn:hover {
+  color: #765bb4;
+}
+
+.comments-list {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.comment-item {
+  border: none;
+  padding: 6px;
+  line-height: 1.5;
+}
+
+.comment-username {
+  font-weight: bold;
+  font-size: 14px;
+  color: #FF6B6B;
+}
+
+.comment-text {
+  font-size: 13px;
+}
+
+.comment-meta {
+  font-size: 12px;
+  font-weight: 500;
+  color: #888;
+}
+
+.no-comments {
+  font-style: italic;
+  color: #777;
+  font-size: 14px;
+}
+
+.add-comment {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.comment-input {
+  flex: 1;
+  min-height: 36px;
+  border: 1px solid #eaeaea;
+  border-radius: 20px;
+  padding: 0px 18px;
+  resize: none;
+  font-size: 14px;
+  color: #333;
+}
+
+.comment-input:focus {
+  outline: none;
+  border-color: #c3a9ff;
+}
+
+.add-comment-button {
+  align-self: flex-end;
+  width: 70px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: none;
+  background: #c3a9ff;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.add-comment-button:hover {
+  background-color: #ab93e2;
+}
+
+.error {
+  color: red;
+  font-size: 0.75rem;
+  display: block;
+  margin-top: -0.5em;
+}

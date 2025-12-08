@@ -1,0 +1,42 @@
+.tags-page {
+  padding: 35px;
+  box-sizing: border-box;
+}
+
+.tags-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.tags-header-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.tags-title {
+  font-size: 40px;
+  font-weight: 500;
+  color: #2c3849;
+}
+
+.tag-count-circle {
+  background-color: #D2D8E1;
+  color: #484646;
+  border-radius: 20px;  
+  font-size: 18px;
+  font-weight: 600;
+  width: 46px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tag_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 50px 40px;
+}

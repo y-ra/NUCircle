@@ -1,0 +1,102 @@
+.sideBarNav {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  padding: 3% 0;
+  align-items: center;
+  background: #FFFFFF;
+  height: 100%;
+}
+
+.menu_button:first-child {
+  margin-top: 0;
+}
+
+.menu_button {
+  width: 75%;
+  margin-top: 20px;
+  padding: 12px 0;
+  border-radius: 15px;
+  text-align: center;
+  line-height: normal;
+  color: #484848;
+  font-weight: 400;
+  text-decoration: none;
+  transition: background-color 0.4s, color 0.4s; 
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 15px;
+  position: relative;
+}
+
+.menu_button:hover {
+  background: #f3f3f3;
+  color: #484848;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.menu_selected {
+  background: #FFF0F0;
+  color: #FF6B6B;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.messaging-wrapper {
+  position: relative;  
+  width: 100%; 
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  margin-top: 20px;
+  padding-left: 12.5%;
+}
+
+.messaging-wrapper .menu_button {
+  width: 85%;
+  margin-top: 0;
+  padding-left: 15px;
+  justify-content: flex-start;
+}
+
+.messaging-collapse {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px; 
+  margin-top: 10px;
+  gap: 20px;
+  padding-left: 10px;
+}
+
+
+.message-collapse .menu_button {
+  padding: 3px 6px;
+}
+
+.messaging-main {
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.message-option {
+  padding: 6px 10px;
+  text-decoration: none;
+  color: #484848;
+  border-radius: 10px;
+  transition: background-color 0.2s, color 0.2s;
+  font-size: 14px;
+}
+
+.message-option:hover {
+  background-color: #f3f3f3;
+  font-weight: 500;
+}
+
+.message-option-selected {
+  background-color: #fff0f0;
+  color: #ff6b6b;
+  font-weight: 500;
+}

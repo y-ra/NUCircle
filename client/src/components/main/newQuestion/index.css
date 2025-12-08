@@ -1,0 +1,136 @@
+.form {
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px 50px;
+  width: 85%;
+  max-width: 1000px;
+  margin: 40px auto;
+  box-shadow: 0 2px 6px -2px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.input_title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #1F2937; 
+}
+
+.input_hint {
+  font-size: 14px;
+  color: #818790; 
+  margin-bottom: 15px; 
+  margin-left: 4px;
+  font-style: normal;
+}
+
+.input_input, textarea.input_input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px 16px;
+  margin-bottom: 30px;
+  border: 1px solid #f2eaea;
+  border-radius: 20px;
+  background-color: #FFF9F9;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.input_input_textarea {
+  min-height: 130px;        
+  font-family: inherit;       
+  font-size: 16px;
+  line-height: 1.4;
+  padding: 14px 16px;
+  border: 1px solid #f2eaea;
+  border-radius: 20px;
+  background-color: #FFF9F9;
+  width: 100%;
+  box-sizing: border-box;
+  resize: none;
+  overflow-wrap: break-word;
+  outline: none;
+  margin-bottom: 30px;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.input_title span.mandatory {
+  color: #ff6b6b;
+  margin-left: 4px;
+}
+
+.input_input:focus,
+.input_input:hover {
+  border: 1px solid #f9a3a3;
+  background-color: #fff4f4;
+}
+
+.input_input_textarea:focus,
+.input_input_textarea:hover {
+  border: 1px solid #f9a3a3;
+  background-color: #fff4f4;
+}
+
+
+.input_error {
+  color: #EF4444;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: -10px;
+}
+
+.form_communitySelect {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 16px;
+  border: 1px solid #f2eaea; 
+  border-radius: 20px;
+  background-color: #FFF9F9;
+  color: #424d5b; 
+  appearance: none;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+  margin-bottom: 20px;
+}
+
+.form_communitySelect:hover,
+.form_communitySelect:focus {
+  border-color: #f9a3a3; 
+  outline: none;
+  box-shadow: 0 0 3 2px #f9a3a3;
+  background-color: #fff4f4;
+}
+
+.btn_indicator_container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.form_postBtn {
+  background-color: #ff6b6b;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.form_postBtn:hover {
+  background-color: #e55a5a;
+}
+
+.mandatory_indicator {
+  font-size: 14px;
+  color: #ff4d4d; 
+  margin-top: 20px;
+}
+
+

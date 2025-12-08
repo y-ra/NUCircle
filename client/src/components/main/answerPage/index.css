@@ -1,0 +1,11 @@
+.answer-page-container {
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.ask-question-button-container {
+  display: flex;
+  justify-content: flex-end;
+}
